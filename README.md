@@ -18,7 +18,7 @@ After getting the degree of the polynomials, a system of equations can be constr
 
 This can be best explained via the use of an example.
 
-Knowing that ![](https://latex.codecogs.com/svg.image?p(x)%20=%20an%5E2%20&plus;%20bn%20&plus;%20c) and the sequence is `[2, 5, 9]`, we can say that:
+Knowing that ![](https://latex.codecogs.com/svg.image?p(n)%20=%20an%5E2%20&plus;%20bn%20&plus;%20c) and the sequence is `[2, 5, 9]`, we can say that:
 
 ![](https://latex.codecogs.com/svg.image?a1%5E2&plus;b1%5E1&plus;c1%5E0%20=%202)
 
