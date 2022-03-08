@@ -59,7 +59,7 @@ if __name__ == "__main__":
             sign = "-"
         if term.is_integer():
             term = int(term)
-        if power > 2:
+        if power >= 2:
             output += f"{sign}{abs(term)}n{power_str}"
         if power == 1:
             output += f"{sign}{abs(term)}n"
