@@ -8,7 +8,7 @@ A few days ago I came across the WolframAlpha widget which when inputted with at
 
 However, I was interested in how it worked and wanted to make my own program that would be able to create a general rule for ANY sequence that can be expressed as a polynomial (sequences wherein the `n`th difference is constant).
 
-More formally, I wanted to construct the function ![](https://latex.codecogs.com/svg.image?p(x)%20=%20an%5E0%20&plus;%20bn%5E1%20&plus;%20cn%5E2...) where ![](https://latex.codecogs.com/svg.image?n%20%5Cin%20%5Cmathbb%7BR%7D) with a degree `d` when given `d+2` input output pairs of the function.
+More formally, I wanted to construct the function ![](https://latex.codecogs.com/svg.image?p(n)%20=%20an%5E0%20&plus;%20bn%5E1%20&plus;%20cn%5E2...) where ![](https://latex.codecogs.com/svg.image?n%20%5Cin%20%5Cmathbb%7BR%7D) with a degree `d` when given `d+2` input output pairs of the function.
 
 # How does it work?
 Firstly, the program determines the degree of the polynomial by looking at which difference is constant. The `n`th difference being constant usually means that a polynomial with a degree `n` can be created in order to model the sequence.
