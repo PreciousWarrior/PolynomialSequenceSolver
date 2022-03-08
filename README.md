@@ -36,7 +36,7 @@ Therefore,
 or,
 ![](https://latex.codecogs.com/svg.image?X=A%5E%7B-1%7DB)
 
-The cool thing is that this applies in general, when the pattern is cubic, `A` and `B` can be extended vertically to add another equation, and A can be extended horizontally to add another term to each equation.
+The cool thing is that this applies in general, when the pattern is cubic, `A` and `B` can be extended vertically to add another equation, and `A` can be extended horizontally to add another term to each equation.
 
 In code, `A` can be represented as a 2D array which can be constructed by performing a ![](https://latex.codecogs.com/svg.image?O(n%5E2)) loop over each index, and then over each power, and  then evaluating the exponentiation.
 
