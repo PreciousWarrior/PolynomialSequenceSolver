@@ -6,7 +6,7 @@ I wanted an online tool that could easily create a general rule for a quadratic 
 Online tools which find the general term of sequences are usually for either arithmetic and geometric sequences.
 A few days ago I came across the WolframAlpha widget which when inputted with at most 5 terms of a sequence, could construct a general rule. It worked for arithmetic, quadratic and cubic sequences.
 
-However, I was interested in how it worked and wanted to make my own program that would be able to create a general rule for ANY sequence that can be expressed as a polynomial (sequences wherein the `n`th difference is constant).
+However, I was interested in how it worked and wanted to make my own program that would be able to create a general rule for ANY sequence that can be expressed as a polynomial (sequences wherein the `n`th difference is constant, not just the 1st, 2nd or 3rd difference as is the case with arithmetic, quadratic and cubic sequences respectively).
 
 More formally, I wanted to construct the function ![](https://latex.codecogs.com/svg.image?p(n)%20=%20an%5E0%20&plus;%20bn%5E1%20&plus;%20cn%5E2...) where ![](https://latex.codecogs.com/svg.image?n%20%5Cin%20%5Cmathbb%7BR%7D) with a degree `d` when given `d+2` input output pairs of the function.
 
